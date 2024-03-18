@@ -21,7 +21,7 @@ This project is an Employee Management System built using Spring Boot and Hibern
 
 Before running this application, make sure you have the following installed:
 
-- Java Development Kit (JDK) version 11 or higher
+- Java Development Kit (JDK) version 17 or higher
 - Maven
 - MySQL (or another supported database)
 
@@ -29,19 +29,17 @@ Before running this application, make sure you have the following installed:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/employee-management.git
+https://github.com/LathaVoggu/employee_management.git
 
 2. Navigate to the project directory:
 
 cd employee-management
 
-
-
 3. Configure the database:
 
    - Open the `application.properties` file located in `src/main/resources`.
    - Modify the database connection properties as per your environment.
-   
+
 4. Build the project:
 
 mvn clean install
@@ -54,6 +52,18 @@ java -jar target/employee-management-1.0.0.jar
 
    - Open a web browser.
    - Navigate to `http://localhost:8080` to access the Employee Management System.
+
+## Endpoints
+
+- **GET api/v1/employees**: Retrieve a list of all employees.
+- **GET api/v1/employees/{id}**: Retrieve the details of a specific employee by ID.
+- **GET api/v1/employees/byWorkLocation**: Retrieve Retrieve a list of all employees by workLocation.
+- **GET api/v1/employees/byName**: Retrieve Retrieve a list of all employees by firstName.
+
+- **POST api/v1/employees**: Add a new employee.
+- **PUT api/v1/employees/**: Update the details of an existing employee.
+- **DELETE api/v1/employees/{id}**: Delete an employee by ID.
+  -\*\*
 
 ## Usage
 
