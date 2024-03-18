@@ -63,7 +63,6 @@ java -jar target/employee-management-1.0.0.jar
 - **POST api/v1/employees**: Add a new employee.
 - **PUT api/v1/employees/**: Update the details of an existing employee.
 - **DELETE api/v1/employees/{id}**: Delete an employee by ID.
-  -\*\*
 
 ## Usage
 
